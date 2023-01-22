@@ -1,0 +1,217 @@
+body {
+    font: verdana;
+}
+
+.container {
+    margin: 40px;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    background-color: rgb(236, 230, 243);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.left_pane {
+    background-color: rgb(108, 178, 206);
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.profile_image img {
+    padding: 20px 0px;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.contact,
+.education,
+.skills {
+    padding: 0 10px;
+}
+
+#item_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#number,
+#citizen,
+.socials,
+.address {
+    display: block;
+    padding: 5px 15px;
+}
+
+#address_item,
+.time {
+    display: block;
+    padding-top: 2px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    padding-right: 1.5em;
+}
+
+.icon:hover {
+    color: rgb(245, 220, 173);
+}
+
+#profile-line {
+    background-color: white;
+    height: 0.05em;
+    width: 100%;
+}
+
+#skills_bar {
+    font-weight: bold;
+    display: block;
+    padding: 5px 15px;
+}
+
+#skill_levels {
+    display: inline-flex;
+    padding: 0 15px;
+}
+
+#level_1 {
+    background-color: #F0F7FA;
+}
+
+#level_2 {
+    background-color: #D1E7F0;
+}
+
+#level_3 {
+    background-color: #558FA6;
+}
+
+#level_4 {
+    background-color: #1F4A5C;
+}
+
+#level_5 {
+    background-color: #0F252E;
+}
+
+#skill_levels a,
+.skill_level a {
+    width: 1.5em;
+    height: 1em;
+    margin: 0.5em 1.5em 0.5em 0;
+}
+
+.skill_title {
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.skill_item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+}
+
+.skill_name {
+    flex: 75%;
+}
+
+.skill_level {
+    display: inline-flex;
+    flex: 25%;
+}
+
+.skill_level a {
+    width: 1.5em;
+    height: 1em;
+    margin: auto;
+}
+
+.right_pane {
+    display: flex;
+    flex: 2.5;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.summary,
+.achievements,
+.work_experience,
+.project,
+.cocurricular,
+.reference {
+    padding: 0.05em 1em;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.item {
+    margin: 10px;
+}
+
+.subject {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.timeline {
+    font-size: 15px;
+    float: right;
+}
+
+.content {
+    font-size: 15px;
+    display: block;
+    padding: 5px;
+}
+
+.list {
+    margin-block-start: 0px;
+    margin-block-end: 5px;
+}
+
+.list li {
+    padding: 2px;
+}
+
+@media screen and (max-width="360px") {
+    .resume {
+        display: absolute;
+        top: 0;
+        left: 0;
+    }
+    .container {
+        margin: -40px;
+    }
+}
