@@ -27,7 +27,6 @@ body {
 .profile {
     display: flex;
     justify-content: center;
-    height: 30vh;
 }
 
 .profile_image img {
